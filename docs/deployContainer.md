@@ -1,5 +1,5 @@
 # Deploy the Hello World Container
-In this session, I created a YAML file and run deploy command to deploy the conatiner.
+In this session, I created a YAML file and ran deploy command to deploy the conatiner.
 ## Steps
 - Create a YAML file and expose the service to nodePort 31080
 ```
@@ -9,5 +9,5 @@ vi deployment.yaml
 ```
 kubectl apply -f deployment.yaml
 ```
-- I am stuck here by not able to bring up the pod. Still under investigate.
+- I am stuck here by not able to bring up the pod. Still under investigation.
 - Check in the deployment yaml file to the gitlab repo by using the normal git check-in process.
