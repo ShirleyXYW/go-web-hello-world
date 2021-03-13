@@ -23,7 +23,7 @@ $ sudo docker login
 ```
 $ sudo docker push shirleyxyw/go-web-hello-world:v0.1
 ```
-- Expect output: https://hub.docker.com/repository/docker/shirleyxyw/go-web-hello-world
+- Expect output [here](https://hub.docker.com/repository/docker/shirleyxyw/go-web-hello-world)
 ![out](../images/out.png)
 
 
