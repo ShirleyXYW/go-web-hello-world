@@ -7,7 +7,7 @@ This document introduces a most common and basic way to build a web app by the u
 - [Install gitlab-ce](docs/installGitlabce.md)
 - [Create a Project in Gitlab](docs/createProject.md)
 - [Build the App](docs/buildApp.md)
-- [Install Docker](docs/installDockers.md)
+- [Install Docker](docs/installDocker.md)
 - [Run the App in Container](docs/runApp.md)
 - [Push the Image to Dockerhub](docs/pushImage.md)
 - [Install Single Node Cluster](docs/installCluster.md)
