@@ -1,4 +1,4 @@
-# Build the App And Expose ($ go run) the Service to 8081 Port
+# Build the App And Expose the Service to 8081 Port
 Since we have created a sample hello world web app and pushed it to gitlab, now we can use this session to introdue you how to build this app and expose the service to 8081 port.
 ## Steps
 - Enter the go-web-hello-world directory we created in the previous session.
