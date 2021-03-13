@@ -14,5 +14,5 @@ kubectl create clusterrolebinding dashboard-admin -n default --clusterrole=clust
 kubectl get secret $(kubectl get serviceaccount dashboard -o jsonpath="{.secrets[0].name}") -o jsonpath="{.data.token}" | base64 --decode
 ```
 - Copy the token from the terminal output and then use the token to login to your dashboard
-- You will the dashboard like below:
+- You will see the dashboard like below:
 ![board](../images/board.png)
