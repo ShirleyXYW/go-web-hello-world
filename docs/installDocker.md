@@ -1,5 +1,5 @@
-# Install Dockers
-This session will guide you to install Dockers.
+# Install Docker
+This session will guide you to install Docker.
 ## Steps
 - I refer to [here](https://docs.docker.com/install/linux/docker-ce/ubuntu/) to execute the below commands:
 - Uninstall old versions
