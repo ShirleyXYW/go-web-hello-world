@@ -1,7 +1,7 @@
 # Install a Single Node Cluster
-This session will guide to install a single node Kubernetes cluster using kubeadm.
+This session will guide you to install a single node Kubernetes cluster using kubeadm.
 ## Steps
-I followed [here](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) to browse the whole installation process but I simplified this long process to below few command based on my needs here, which is install a single node cluster.
+I followed [here](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) to browse the whole installation process but I simplified this long process to below few commands based on my needs here, which is installing a single node cluster.
 - First, login as ‘sudo’ user because the following set of commands need to be executed with ‘sudo’ permissions. 
 ```
 $ sudo su
