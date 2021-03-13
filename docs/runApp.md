@@ -1,4 +1,4 @@
-# Run the app in container
+# Run the App in Container
 We have installed Docker successfully. So in this session, I will build a docker image for the web app and run that in a container, expose the service to 8082 as an example.
 ## Steps
 ### Build Docker Image and Run in a Container
@@ -27,9 +27,10 @@ ERRO[0000] error waiting for container: context canceled
  - ``` tcp        0      0 127.0.0.1:8082          0.0.0.0:*               LISTEN      998        194175      17632/sidekiq 5.2.9 ```
  - Reason: 8082 is in use already
  - Solution: find out the process which binded to 8082, and kill that process.
- - ``` $ sudo kill -9 17632 ```
+    - ``` $ sudo kill -9 17632 ```
+ - More investigations needed here as I don't have enough time to figure out what the 'sidekip' process is doing and whether it is appropriate to kill it.
  - check if 8082 is still in use:
- - ``` $ sudo netstat -plten | grep 8082 ```
+    - ``` $ sudo netstat -plten | grep 8082 ```
 - Re-run docker image:
 ```
 sudo docker run -p 8082:8082 363ae4eedd05
