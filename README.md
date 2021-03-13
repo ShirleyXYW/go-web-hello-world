@@ -1,6 +1,6 @@
 # go-web-hello-world
 ## Introduction
-This document introduces a most common and basic way to build a web app by the utilization of various popular tools in current high-tech society.
+This document introduces a most common way to build a web app by the utilization of various popular tools in current high-tech society.
 ## Content
 - [Install a Ubuntu Server & Forward Port](docs/intsallServer&ForwardPort.md)
 - [Update System & Linux Kernal](docs/updateSysPK&LinuxKernal.md)
